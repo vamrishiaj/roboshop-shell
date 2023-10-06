@@ -14,3 +14,6 @@ cp dispatch.service /etc/systemd/system/dispatch.service
 systemctl daemon-reload
 systemctl enable dispatch 
 systemctl start dispatch
+
+#write a function for golang in common.sh and call it here.
+#Also func_schema_setup()
